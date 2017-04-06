@@ -1,5 +1,5 @@
 # scj-template
-Selenium, Cucumber, Java Project Template
+Selenium, Cucumber, Java project template.
 
 **Environment Info:**
 - Mac OS Sierra - 10.12.1
