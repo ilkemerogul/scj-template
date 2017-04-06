@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3769540917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navigate to google.com",
+        "description": "",
+        "id": "navigating-to-google;navigate-to-google.com",
+        "after": [
+          {
+            "result": {
+              "duration": 185476338,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.stopDriver(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3532430685,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I open googlecom",
+            "match": {
+              "location": "MainStepDefs.iOpenGoogleCom()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1072851464,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the searchbox",
+            "match": {
+              "location": "MainStepDefs.iClickOnTheSearchbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148590193,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type something",
+            "match": {
+              "location": "MainStepDefs.iTypeSomething()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148920897,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search results should be displayed",
+            "match": {
+              "location": "MainStepDefs.searchResultsShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@P1"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to Google",
+    "description": "As a user\nI want to navigate to google.com\nSo that I can search anything on the web",
+    "id": "navigating-to-google",
+    "keyword": "Feature",
+    "uri": "features/01_main.feature"
+  }
+]
